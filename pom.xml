@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.7.10</version>
+		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jetbrains.teamcity</groupId>
@@ -13,9 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>thenextgoogle</name>
 	<description>Demo Project Teamcity Kotlin DSL</description>
- <!-- Test -->
+
 	<properties>
-		<java.version>11</java.version> <!-- test-->
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
@@ -23,11 +23,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
-
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -42,7 +37,6 @@
 		</dependency>
 	</dependencies>
 
-    <!-- update -->
 	<build>
 		<plugins>
 			<plugin>
